@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/neom-NPDnHmYsl6Y-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+nav.header_bar{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background: #12c2e9;
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+     background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    border: 1px solid gray;
+}
+
+span.circle_logo{
+    float: left;
+    padding: 10px;
+}
+
+span.circle{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+    float: left;
+    padding: 10px;
+}
+
+ul.list li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+    margin: 5px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    position: relative;
+    float:left;
+}
+
+ul.list li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+ul.list li:hover{
+    background-color: #ffffff50;
+}
+
+ul.list li a:hover{
+    color: darkslategrey;
+    transition: all 0.4s;
+}
+
+ul.list li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+
+ul.course{
+   position:absolute;
+   opacity: 0;
+   visibility: hidden;
+}
+
+ul.course li{
+    background-color: #12c2e9;
+}
+
+ul.course li:hover a{
+    margin-right: 20px;
+    background-color: #ffffff50;
+    color: #000;
+}
+
+ul.program{
+    position:absolute;
+    opacity: 0;
+    visibility: hidden;
+ }
+
+ul.program li{
+    background-color: #12c2e9;
+}
+
+ul.program li:hover a{
+    margin-right: 20px;
+    background-color: #ffffff50;
+    color: #000;
+}
+
+span.search_logo{
+    display: inline-block;
+    padding: 8px;
+    float: left;
+}
+
+span.button a{
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 10px;
+    float:left;
+    text-decoration: none;
+    color:#1a1818;
+    background-color: #fff;
+}
+
+span.button a:hover{
+    color: #fff;
+    background-color:MediumSeaGreen ;
+    transition: all 0.4s;
+}
+
+div.division p:hover{
+    background-color: #dae8eb;
+    color: #000;
+    line-height:20px;
+}
+div.a{
+    width: 430px;
+    height: 160px;
+    padding: 10px;
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    background-color: #ffffff50;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+div.b{
+    width: 430px;
+    height: 160px;
+    padding: 10px;
+    position: absolute;
+    top: 300px;
+    left: 470px;
+    background-color: #ffffff50;
+    border: 1px solid white;
+}
+div.c{
+    width: 430px;
+    height: 160px;
+    padding: 10px;
+    position: absolute;
+    top: 300px;
+    left: 920px;
+    background-color: #ffffff50;
+    border: 1px solid white;
+}
+div.d{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top:500px ;
+    right: 20px;
+    background-color: SteelBlue;
+    text-align: center;
+    font-weight: bolder;
+    z-index: 3;
+}
+div.e{
+    width: 300px;
+    height: 200px;
+    top: 520px;
+    right: 120px;
+    position: absolute;
+    background-color: yellow;
+    text-align: center;
+    font-weight: bolder;
+    z-index: 2;
+}
+div.f{
+    width: 300px;
+    height: 200px;
+    top: 540px;
+    right: 220px;
+    position: absolute;
+    background-color: MediumSeaGreen;
+    text-align: center;
+    font-weight: bolder;
+    z-index: 1;
+}
+div.d:hover{
+    background-color: #ffffff50;
+}
+div.e:hover{
+    background-color: #ffffff50;
+}
+div.f:hover{
+    background-color: #ffffff50;
+}
+div.bd{
+    width: 500px;
+    height: 250px;
+    background-color: green;
+    border: 1px solid black;
+    position: absolute;
+    top: 500px;
+    left: 20px;
+}
+div.ch{
+    width: 200px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    top: 550px;
+    left: 170px;
+}
+div.bd:hover{
+    background-color: #fff;
+}
+div.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #1a1818;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-family: cursive;
+    line-height: 50px;
+    position: absolute;
+    top: 765px;
+}
+
+
+
+
